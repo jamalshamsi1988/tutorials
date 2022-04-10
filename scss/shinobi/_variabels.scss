@@ -4,6 +4,30 @@ $secondary:#1ac;
 $error:#d32752;
 $info:#f6c31c;
 
+// color palette
+$colors :(
+    "primary":$primary,
+    "secondary":$secondary,
+    "error":$error,
+    "info":$info,
+    "blue":blue,
+    "red":red,
+    "yellow":yellow,
+    "green":green,
+    "orange":orange,
+    "purple":purple,
+    "gray":gray,
+    "black":black,
+    "white":white
+    );
+// .text-btn {
+//     background-color: map-get($colors,"purple" );
+// }
+    // @debug map-get($colors, "purple");
+    // @debug map-has-key($colors , "secondary" );
+    // @debug map-remove($colors , "primary");
+    // @debug map-merge($colors ,("pink":pink));
+
 // spacing
 $base-pading:0.75rem;
 $base-margin:0.75rem;

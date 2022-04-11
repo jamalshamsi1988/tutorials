@@ -1,23 +1,27 @@
 {
-  "name": "y",
+  "name": "complete-sass-tutorial",
   "version": "1.0.0",
-  "description": "y",
-  "main": "y",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "y"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "y"
+    "url": "git+https://github.com/iamshaunjp/complete-sass-tutorial.git"
   },
-  "keywords": [
-    "y"
-  ],
-  "author": "y",
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/complete-sass-tutorial/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/complete-sass-tutorial#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-scss": "^1.4.0",
-    "scss": "^0.2.4"
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "gulp-purgecss": "^4.0.3"
   }
 }
